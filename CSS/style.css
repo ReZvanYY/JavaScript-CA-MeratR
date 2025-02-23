@@ -1,0 +1,90 @@
+body {
+  background-color: lightgray;
+}
+#previewData {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-evenly;
+  height: 26rem;
+}
+.product-img {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  border: solid black 0.3rem;
+  border-radius: 2rem;
+}
+.price-box {
+  width: 3.5rem;
+  font-size: 1.1rem;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  margin: 0.2rem auto;
+}
+.discounted-price-box {
+  width: 3.5rem;
+  font-size: 1.1rem;
+  background-color: red;
+  text-align: center;
+  display: flex;
+  margin: 0.2rem auto;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: solid black 0.25rem;
+  width: 20rem;
+  height: 26rem;
+  margin-bottom: 1rem;
+}
+.jacket-description {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  width: fit-content;
+  height: 100%;
+  display: block;
+}
+.rainy-days-logo-small {
+  display: flex;
+  margin: 1rem auto;
+  width: 15rem;
+  height: 7rem;
+}
+.no-text-decoration-white {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.25rem;
+  margin: 0 4.0625rem;
+}
+.page-navigation {
+  border: solid rgba(10, 54, 65, 1);
+  background-color: rgba(10, 54, 65, 1);
+  width: 100%;
+  height: 3rem;
+  font-family: "Kameron";
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.nav-left-space {
+  flex: 0;
+}
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.cart {
+  flex: 0.5;
+  display: flex;
+  justify-content: flex-end;
+}

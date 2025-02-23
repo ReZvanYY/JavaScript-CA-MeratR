@@ -1,0 +1,26 @@
+#womenTab {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+.women-jacket-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  border: 0.3rem solid black;
+  width: 20rem;
+  height: 30rem;
+}
+.jacket-image {
+  width: 18rem;
+  height: 15rem;
+  border-radius: 0.5rem;
+  border: 0.3rem solid black;
+}

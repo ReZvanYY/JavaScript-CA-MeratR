@@ -1,0 +1,53 @@
+body {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  text-align: center;
+}
+.jacket-img {
+  width: 50%;
+  height: 35rem;
+  border: solid black 0.3rem;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+}
+.jacket-description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(10, 54, 65, 1);
+  color: white;
+  border: solid black 0.3rem;
+  border-radius: 2rem;
+  margin: auto;
+  width: 50%;
+  height: 20rem;
+  font-size: 1.6rem;
+}
+.jacket-title {
+  font-size: 3.5rem;
+}
+.purchase-item-button {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem auto;
+  background-color: rgba(20, 190, 252, 1);
+}
+.size-selector {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0.1rem auto;
+  width: 50%;
+  background-color: rgba(252, 244, 20, 1);
+}
+.jacket-new-price {
+  border: solid red 0.5rem;
+  border-radius: 2rem;
+  background-color: red;
+  margin: auto;
+  width: 5rem;
+  font-size: 2rem;
+}
